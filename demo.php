@@ -13,7 +13,7 @@ include('assets/src/header.php')
 				if ($t == "Thursday" || $t == "Friday" || $t == "Saturday") {
 				echo "<span style='color: green;'> JAAAAA!!!!!!/oudesite</span> " ;
 				} else {
-				echo "<span style='color: red;'>Nee/Oudesite</span>";
+				echo "<span style='color: red;'>Nee/OudesiTe</span>";
 				}
 				echo "</div></div>";	
 			?>

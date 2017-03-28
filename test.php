@@ -12,14 +12,13 @@ include('assets/src/header.php')
 			echo "<div style='font-size: 90px; text-align: center;'>Moet het bier koud gezet worden?</div>";
 		}
 		?>
-		<center>
 			<?php
 				echo "<div style='text-align: center; font-size: 200px; margin-top: -20px;'>";
 				$d = date("l");
 				$h = date("H");
 				echo "<div id='bierkoudzetten'>";
 				if ($d == "Thursday" || $d == "Friday" && $h < "14") {
-					if (strtolower($naam) == "mick"){
+					if (strtolower($naam) == "Jurre`"){
 						echo "<span style='color: red;'>Nee</span>";
 					} else {
 						echo "<span style='color: green;'>Jah!</span>";
@@ -32,7 +31,6 @@ include('assets/src/header.php')
 				echo "</div></div>";
 				echo "<div style= color:white; padding-top: 80%;>Copyright &copy; Mick de Jong - All rights reserved.</div>"
 			?>
-		</center>
 		</div>
 	</div>
 <?php

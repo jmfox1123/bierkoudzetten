@@ -2,6 +2,7 @@
 include ('config.php');
 include ('functions.php');
 include ('analyticstracking.php');
+
 function randomString($amount) {
 	$characters = '0123456789ABCDEF';
 	

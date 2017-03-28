@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Default styles */
+
+*{
+	margin: 0;
+	font-family: Tahoma,Helvetica,Arial,sans-serif;
+}
+
+body{
+	margin: 20;
+}
+
+.copyright{
+  text-align: center;
+}

@@ -11,9 +11,9 @@ include('assets/src/header.php')
 				$t = date("l");
 				echo "<div id='bierkoudzetten'>";
 				if ($t == "Thursday" || $t == "Friday" || $t == "Saturday") {
-				echo "<span style='color: green;'> JAAAAA!!!!!!</span> " ;
+				echo "<span style='color: green;'> JAAAAA!!!!!!/oudesite</span> " ;
 				} else {
-				echo "<span style='color: red;'>Nee</span>";
+				echo "<span style='color: red;'>Nee/Oudesite</span>";
 				}
 				echo "</div></div>";	
 			?>
